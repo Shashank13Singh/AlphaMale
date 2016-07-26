@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <!--<script src="js/NativePageTransitions.js"></script>-->
+  </head>
+  <body ng-app="starter">
+
+    
+
+<ion-side-menus>
+  <ion-side-menu width="200" side="left">
+      <ion-content class="mymenu">
+        <ion-list>
+          <ion-item menu-close href="#/home">Home</ion-item>
+          <ion-item menu-close href="#/aboutus"><p>About Us</p></ion-item>
+          <ion-item menu-close href="#/"><p>Rider Groups</p></ion-item>
+          <ion-item menu-close href="#/enfields"><p>Enfields</p></ion-item>
+          <ion-item menu-close href="#/accessories"><p>Accessories</p></ion-item>
+          <ion-item menu-close href="#/map"><p>Map</p></ion-item>
+          <ion-item menu-close href="#/destinations"><p>Destinations</p></ion-item>
+          <ion-item menu-close href="#/events"><p>Events</p></ion-item>
+          <ion-item menu-close href="#/settings"><p>Settings</p></ion-item>
+        </ion-list>
+      </ion-content>
+  </ion-side-menu>
+
+  <ion-side-menu-content><ion-pane>
+      <ion-nav-bar class="bar-clear">
+        <ion-nav-buttons side="left">
+          <button menu-toggle="left" class="button button-icon button-clear ion-navicon"></button>
+        </ion-nav-buttons>
+        <ion-nav-back-button></ion-nav-back-button>
+      </ion-nav-bar>
+      <ion-content class="bgimageEvents">
+          <img src="img/Gallery.png" style="width:100%">
+          <div class="row">
+<div class="col col-50 shadow" onclick="location.href='#/destImages';" style="cursor: pointer;"><img src="img/evnt1.jpg" class="shadow-image" style="width:100%"><center><p style="margin-left:5px;margin-right:5px;font-size:75%;line-height:100%;">Roaring Indian Blood Donation Camp</p></center></div>
+<div class="col col-50 shadow" onclick="location.href='#/destImages';" style="cursor: pointer;"><img src="img/evnt2.jpg" class="shadow-image" style="width:100%"><center><p style="margin-left:5px;margin-right:5px;font-size:75%;line-height:100%;">Stop Acid Attack Campaign Open Debate<br>5 Photos</p></center></div></div>
+<div class="row row-center"><center>
+<div class="col col-center col-80 shadow"><img src="img/evnt3.jpg" class="shadow-image" style="width:100%"><center><p style="margin-left:5px;margin-right:5px;font-size:75%;line-height:100%;">Airtel Dirt Bike Challenge Lucknow<br>10 Photos</p></center></div></center></div>
+<div class="row row-center"><center>
+<div class="col col-center col-90 shadow"><img src="img/evnt4.jpg" class="shadow-image" style="width:100%"><center><p style="margin-left:5px;margin-right:5px;font-size:75%;line-height:100%;">Royal Enfield - Women's day Special</p></center></div></center></div>
+<!--<div class="col col-bottom col-90 shadow"><img src="img/evnt4.jpg" class="shadow-image" style="width:100%"><center><p style="margin-left:5px;margin-right:5px;font-size:75%;line-height:100%;">Indian Army in Ladakh<br>30 Photos</p></center></div>-->
+      </ion-content>
+    </ion-pane>
+  </ion-side-menu-content>
+</ion-side-menus>
+    
+  </body>
+</html>

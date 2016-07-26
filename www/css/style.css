@@ -1,0 +1,279 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+.bgimageHome {
+        color: white;
+        background: url(../img/homepage.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;        
+    }
+    
+.item.item-trns {
+	border-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	color: white; 
+    padding-left: 20%;
+    height: 40px;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: 'karla';
+    src:url('../karla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
+
+
+.bgimageSignin {
+        background: url(../img/signin2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    
+        
+    .bgimageMap {
+        color: white;
+        background: url(../img/mapOver.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;        
+    }
+    
+.bgimageAboutus{
+        background: url(../img/Aboutus.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    
+.bgimageAccessories {
+        color: white;
+        background: url(../img/helmetsBG.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;        
+    }
+    
+.bgimageEnfields{
+        background: url(../img/Enfields.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+.bgimageDestinations{
+        background: url(../img/destinationBG.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    
+.bgimageEvents{
+        background: url(../img/eventsBG.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+
+.transparent{
+    background-color:rgba(0,0,0,0.1);
+    background: transparent;
+}
+
+#signin{
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.centered{
+    margin: 0px auto;
+}
+
+input::-webkit-input-placeholder {
+   color: rgba(177,149,114,1) !important;
+   opacity: 1 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+   color: rgba(177,149,114,1) !important;  
+   opacity: 1 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(177,149,114,1) !important;  
+   opacity: 1 !important;
+}
+
+input:-ms-input-placeholder {  
+   color: rgba(177,149,114,1) !important;  
+   opacity: 1 !important;
+}
+
+.customButton{
+    background-color: rgba(177,149,114,0.8) !important;  
+    color:white;
+    font-size: 0.9em;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.bottom{
+    color: white;
+    text-align: center;
+  margin-top:4%;
+}
+
+.mymenu, .mymenu .item, .mymenu .item-content, .mymenu .item-complex {
+background-color: rgba(0,0,0,0);
+/*background-color: #222;*/
+background-color: #060D1D;
+color: white;
+border: 0px;
+}
+
+.shadow{
+    background:#FFF;
+    border:0px solid #AAA;
+    border-bottom:0px solid #BBB;
+    padding:0px;
+    margin:5px;
+    overflow:hidden;
+    box-shadow: -2px 4px 3px #888888;
+}
+.shadow-image{
+    width:100%;
+    padding:0px;
+    margin:0px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+.image-list-thumb {
+    padding: 2px 2px 2px 2px;
+    height: 150px;
+}
+ 
+.image-modal {
+    width: 100% !important;
+    height: 100%;
+    top: 0 !important;
+    left: 0 !important;
+}
+ 
+.transparentSlider {
+  background: rgba(0,0,0,0.7);
+}
+ 
+.slider {
+    width: 100%;
+    height: 100%;
+}
+ 
+.image {
+    width: 100%;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+
+
+/*TINDER STYLING*/
+
+td-cards {
+    display: block;
+    padding-top: 10% !important;
+}
+ 
+td-card {
+    position: absolute;
+    left: 50%;
+    margin: 80px 0 40px -150px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #999;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-color: rgb(255,255,255);
+}
+ 
+.td-card .title {
+    height: 40px;
+    font-size: 15px;
+    padding: 15px;
+    color: black;
+}
+ 
+td-card .image {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+ 
+td-card img {
+    height: 258px;
+    width: 100%;
+    border-radius: 6px;
+}
+ 
+/* Overlay styling*/
+ 
+.overlayBox {
+    position: absolute;
+    left: 50%;
+    height: 43%;
+    width: 100%;
+    top: -80px;
+    opacity: 0;
+    margin: 80px 0 0 -149px;
+}
+ 
+.boxed {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 30px;
+}
+ 
+.yes-text {
+    background-color: rgba(0,256,0,0.2);
+}
+ 
+.yesBox {
+    margin: 10% 60% 0% 10%;
+    border: 2px solid #00FF00;
+    color: rgb(0, 256, 0);
+    -webkit-transform: rotate(-25deg);
+}
+
+.no-text {
+    background-color: rgba(256,0,0,0.2);
+}
+ 
+.noBox {
+    margin: 10% 10% 0% 60%;
+    border: 2px solid #FF0000;
+    color: rgb(256, 0, 0);
+    -webkit-transform: rotate(25deg);
+}
+ 
+.fade {
+    -webkit-transition: 0.2s opacity linear;
+    transition: 0.2s opacity linear;
+    opacity: 0;
+}
